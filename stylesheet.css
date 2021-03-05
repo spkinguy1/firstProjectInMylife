@@ -1,0 +1,76 @@
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: vazir;
+    src: url(./fontss/Sahel.ttf);
+}
+.manipulate1 {
+    font-family: vazir;
+    line-height: 1em;
+    max-width: 300px;
+    width: 50%;
+    background: rgba(111, 212, 111,0.1);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+}
+.manipulate2 {
+    line-height: 1em;
+    width: 50%;
+    max-width: 300px;
+    background: rgba(111, 212, 111,0.8);
+    text-align: center;
+    display: inline-block;
+}
+#result {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: rgba(111, 207, 212, 0.8);
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+#firstSubmit {
+    background-color: rgb(251, 251, 251);
+    font-family: vazir;
+    width: 50px;
+}
+#firstSubmit:hover{
+    transition: .3s;
+    background-color: rgb(213, 251, 172);
+    cursor: pointer;
+}
+#footer {
+    margin-top: 10px;
+}
+#notif {
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(241, 241, 241);
+    margin:10px auto;
+    position: relative;
+    bottom: 150px;
+    border-radius: 10px;
+    
+}
+#notifButton {
+    position: relative;
+    right:45% ;
+    top: 70%;
+    width: 60px;
+    height: 40px;
+}
+.boxAppear {
+    display:none;
+}
+.boxDisAppear{
+    display:none;
+}
